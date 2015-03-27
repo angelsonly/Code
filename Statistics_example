@@ -8,8 +8,7 @@ Answer: No, the events are not mutually exclusive. To elaborate let:
 A1 = {Person has sleep apnea}
 A2 = {Person has RLS}
 A3 = {Person has insomnia}
-Then (work out the details for yourself)
-P(A1 ∪ A2 ∪ A3) = P(A1) + P(A2) + P(A3)
+Then P(A1 ∪ A2 ∪ A3) = P(A1) + P(A2) + P(A3)
 − P(A1 ∩ A2) − P(A1 ∩ A3) − P(A2 ∩ A3)
 + P(A1 ∩ A2 ∩ A3)
 = .71 + Other stuff
