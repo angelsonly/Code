@@ -1,0 +1,16 @@
+The National Sleep Foundation (www.sleepfoundation.org) reports that around
+3% of the American population has sleep apnea. They also report that around 10%
+of the North American and European population has restless leg syndrome.
+Similarly, they report that 58% of adults in the US experience insomnia. Does this
+imply that 71% of people will have at least one sleep problems of these sorts?
+
+Answer: No, the events are not mutually exclusive. To elaborate let:
+A1 = {Person has sleep apnea}
+A2 = {Person has RLS}
+A3 = {Person has insomnia}
+Then (work out the details for yourself)
+P(A1 ∪ A2 ∪ A3) = P(A1) + P(A2) + P(A3)
+− P(A1 ∩ A2) − P(A1 ∩ A3) − P(A2 ∩ A3)
++ P(A1 ∩ A2 ∩ A3)
+= .71 + Other stuff
+where the “Other stuff” has to be less than 0
